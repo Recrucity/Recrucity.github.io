@@ -1,0 +1,78 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #1c1c27;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #28293d;
+	padding: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5%;
+}
+
+.pfpimg {
+	width: 100%;
+	max-width: 300px;
+	border-radius: 5%;
+	margin-bottom: 20px;
+}
+
+body {
+    background-color: #1c1c27;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+h2 {
+	font-size: 32px;
+	margin: 0;
+    color: white;
+}
+
+h3 {
+	font-size: 20px;
+	margin: 0;
+    color: white;
+}
+
+p {
+	font-size: 18px;
+	margin: 0;
+    color: #8f8fa6;
+}
+
+a {
+    color: #8f8fa6;
+}
+
+.btn {
+	transition: 0.3s;
+	background-color: #5a5b89;
+	width: 450px;
+	height: 50px;
+	font-size: 30px;
+	color: white;
+	border-radius: 10px;
+	border-width: 0px;
+	font-family: 'Zen Maru Gothic', sans-serif;
+	margin: 10px;
+}
+
+.btn:hover {
+	background-color: #383955;
+	cursor: pointer;
+}
